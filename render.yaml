@@ -13,3 +13,5 @@ services:
         value: /tmp/workspace
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true
+      - key: DOCKER_DEFAULT_PLATFORM
+        value: linux/amd64
